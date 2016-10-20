@@ -9,4 +9,6 @@ int sum(int payments[])
   for(i = 0; i < 5; i++){
      total = total + payments[i];
   }
+
+  return(total);
 }
