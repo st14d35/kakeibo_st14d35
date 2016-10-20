@@ -55,7 +55,7 @@ int main(int argc, char *argv[])
      total_out = total_out + payments[j];
   } 
 
-  write_file(argv[0], incomes, payments, total_in, total_out);
+  write_file(argv[0], total_in, total_out);
 
   printf("Finish.\n");
  
